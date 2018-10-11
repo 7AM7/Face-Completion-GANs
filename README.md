@@ -36,6 +36,7 @@ $ python test.py
 ![Alt text](result/1_test.png?raw=true "result")
 ![Alt text](result/2_test.png?raw=true "result")
 ![Alt text](result/3_test.png?raw=true "result")
+![Alt text](result/4_test.png?raw=true "result")
 
  - ### After 10 Epochs
 ![Alt text](result/result_10.png?raw=true "result")
