@@ -29,19 +29,22 @@ $ python test.py
 ```
 
 ## Results  
+- ### [Kaggle kernal](https://www.kaggle.com/ahmedmoorsy/kernelf9d9e1f100?scriptVersionId=6384410)
+- ### Python OpenCv
+  ```
   Use your mouse to erase pixels in the image.  
   When you're done, press Q.  
   Result will be shown in few seconds.
-
+  ```
 ![Alt text](result/1_test.png?raw=true "result")
 ![Alt text](result/2_test.png?raw=true "result")
 ![Alt text](result/3_test.png?raw=true "result")
 ![Alt text](result/4_test.png?raw=true "result")
 
- - ### After 10 Epochs
-![Alt text](result/result_10.png?raw=true "result")
- - ### After 20 Epochs
-![Alt text](result/result_20..png?raw=true "result")
+   - ### After 10 Epochs
+  ![Alt text](result/result_10.png?raw=true "result")
+   - ### After 20 Epochs
+  ![Alt text](result/result_20..png?raw=true "result")
 
 ## Feature works
   - ### using align the face landmarks with dlib before training.
