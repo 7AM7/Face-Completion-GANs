@@ -55,11 +55,12 @@ def test(generator):
         temp_img = process_image('test/' + filename)
         print("Testing ...")
         mask = erase_img(temp_img)
-        
+
         img = np.expand_dims(img, 0)
         mask = np.expand_dims(mask, 0)
+        masked = img * (1 - mask)
 
-        completion_image = generator.predict([img, mask])
+        completion_image = generator.predict([masked, mask])
 
         # # Delete Batch dimension
         completion_image = np.squeeze(completion_image, 0)
